@@ -14,7 +14,7 @@
   .container {
     background: url("./images/bg-header-mobile.png");
     background-repeat: no-repeat;
-    width: 23rem;
+    width: 100%;
     height: auto;
     mix-blend-mode: color;
   }
