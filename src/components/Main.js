@@ -53,23 +53,23 @@ const Main = () => {
       <div className="componentsRow">
         <div className="component">
           <img className="" src={blacklist} alt="asdasd" />
-          <h5>Create blacklists</h5>
-          <p>
+          <h5 className="newHeader">Create blacklists</h5>
+          <p className="newParag">
             Ensure sensitive information never makes its way to your clipboard
             by excluding certain sources.
           </p>
         </div>
         <div className="component">
           <img className="" src={text} alt="asdad" />
-          <h5>Plain text snippets</h5>
-          <p>
+          <h5 className="newHeader">Plain text snippets</h5>
+          <p className="newParag">
             Remove unwanted formatting from copied text for a consistent look.
           </p>
         </div>
         <div className="component">
           <img className="" src={preview} alt="asdas" />
-          <h5>Sneak preview</h5>
-          <p>
+          <h5 className="newHeader">Sneak preview</h5>
+          <p className="newParag">
             Quick preview of all snippets on your Clipboard for easy access.
           </p>
         </div>
@@ -83,7 +83,7 @@ const Main = () => {
       </div>
       <div className="download">
         <h1>Clipboard for iOS and Mac OS</h1>
-        <p>
+        <p className="newParag">
           Available for free on the App Store. Download for Mac or iOS, sync
           with iCloud and you’re ready to start adding to your clipboard.
         </p>
