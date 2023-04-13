@@ -1,4 +1,7 @@
 @media (max-width: 375px) {
+  * {
+    max-width: 100%;
+  }
   .macImgInfo {
     flex-direction: column;
     justify-content: center;
